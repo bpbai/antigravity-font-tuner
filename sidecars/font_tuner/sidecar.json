@@ -1,0 +1,23 @@
+{
+  "command": "node",
+  "args": [
+    "server.mjs"
+  ],
+  "restart_policy": "always",
+  "display_name": "Font Tuner",
+  "description": "Applies global UI font customization, independent chat/code fonts & sizes (>16px), line/paragraph/letter spacing, and automatic system + custom font loading.",
+  "has_web_ui": true,
+  "agent_permissions": {
+    "allows_user_interactions": false
+  },
+  "ui_config": {
+    "display_name": "Font Tuner",
+    "views": [
+      {
+        "path": "/",
+        "entrypoint": "SIDECAR_UI_ENTRYPOINT_AUX_PANE",
+        "title": "Font Tuner"
+      }
+    ]
+  }
+}

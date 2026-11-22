@@ -1,0 +1,7 @@
+{
+  "name": "antigravity-font-tuner",
+  "displayName": "Antigravity Font Tuner",
+  "version": "1.0.0",
+  "description": "Lightweight, non-invasive Antigravity font tuner: global UI typography, independent chat/code fonts & sizes (>16px), line/paragraph/letter spacing, and automatic system + custom font loading without modifying app.asar.",
+  "logo": "assets/logo.svg"
+}
