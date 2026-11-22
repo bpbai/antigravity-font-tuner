@@ -1,0 +1,32 @@
+name: Bug Report / 问题反馈
+description: Report a bug or compatibility issue / 反馈 Bug 或兼容性问题
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem Description / 问题描述
+      description: Briefly describe what happened and what you expected. / 请简要描述遇到的问题与预期表现。
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS & Antigravity Version / 操作系统与 Antigravity 版本
+      placeholder: "e.g. Windows 11 / macOS 15, Antigravity 2.x"
+    validations:
+      required: true
+  - type: textarea
+    id: status
+    attributes:
+      label: "Status Output / 状态输出 (`node install.mjs status`)"
+      render: shell
+      description: Paste the output of `node install.mjs status` (mask any personal path if needed).
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce / 复现步骤
+      placeholder: |
+        1. ...
+        2. ...

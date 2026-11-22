@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerability / 安全漏洞私密反馈
+    url: https://github.com/bpbai/antigravity-font-tuner/security/advisories/new
+    about: Please report security issues privately here instead of opening a public issue. / 请通过私密漏洞通道反馈安全问题。

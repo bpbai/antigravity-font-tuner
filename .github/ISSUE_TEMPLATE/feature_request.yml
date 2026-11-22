@@ -1,0 +1,17 @@
+name: Feature Request / 功能建议
+description: Suggest an improvement or new typography option / 提出改进或新功能建议
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Feature Description / 功能描述
+      description: Describe the feature or typography adjustment you'd like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case / 使用场景
+      description: Explain why this helps your workflow.
